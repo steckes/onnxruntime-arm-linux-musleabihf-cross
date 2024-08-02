@@ -8,9 +8,7 @@ cc_binary(
         "-Wall",
         "-Werror",
     ],
-    features = ["fully_static_link"],
     linkopts = [
-        "-static",
         "-lstdc++",
     ],
     linkstatic = True,
