@@ -33,7 +33,7 @@ cmake(
         "-DCMAKE_EXE_LINKER_FLAGS=-lstdc++",
         "-DCMAKE_TRY_COMPILE_TARGET_TYPE=STATIC_LIBRARY",
         "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=TRUE",
-        "-DFLATBUFFERS_BUILD_FLATC:BOOL=OFF",
+        "-DFLATBUFFERS_BUILD_FLATC:BOOL=ON",
         "-DBUILD_SHARED_LIBS=ON",  # Enable shared library build
     ],
     generate_crosstool_file = False,
